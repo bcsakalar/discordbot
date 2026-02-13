@@ -1,0 +1,5 @@
+{
+    "git.autofetch": "all",
+    "git.decorations.enabled": false,
+    "git.ignoreLimitWarning": true
+}

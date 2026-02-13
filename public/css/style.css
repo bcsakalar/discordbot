@@ -1,0 +1,200 @@
+/* Genel Ayarlar */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1E1E1E;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header Ayarları */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1C1C1C;
+    color: #fff;
+    padding: 10px 0;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.discord-icon a img {
+    width: 32px;
+    height: 32px;
+    transition: transform 0.3s ease;
+}
+
+.discord-icon a img:hover {
+    transform: scale(1.1);
+}
+
+.logo a img{
+    width: 32px;
+    height: 32px;
+    transition: transform 0.3s ease;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #FF8C00;
+}
+
+/* Hero Bölümü */
+.hero {
+    background-color: #1E1E1E;
+    color: #fff;
+    padding: 100px 20px;
+    text-align: center;
+    flex: 1;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.5em;
+    margin-bottom: 40px;
+}
+
+.hero .button {
+    background-color: #FF8C00;
+    color: #FFFFFF;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+.hero .button1 {
+    background-color: #FF8C00;
+    color: #FFFFFF;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+    margin-left: 10px;
+}
+
+/* Features Bölümü */
+section.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+    background-color: #1E1E1E;
+    flex-wrap: wrap;
+}
+
+.feature {
+    width: 30%;
+    background-color: #2A2A2A;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.feature h2 {
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.feature p {
+    color: #FFFFFF;
+}
+
+/* Komutlar Bölümü */
+section.commands {
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: left;
+    flex: 1;
+}
+
+section.commands h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.category {
+    margin-bottom: 30px;
+}
+
+.category h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.category ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.category ul li {
+    font-size: 1.2em;
+    background-color: #2A2A2A;
+    margin-bottom: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    color: #fff;
+}
+
+.category ul li:hover {
+    background-color: #FF8C00;
+    color: white;
+}
+
+/* Footer Ayarları */
+footer {
+    background-color: #1C1C1C;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    margin-top: auto;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Sayfa İçeriği */
+.content {
+    flex: 1;
+}
